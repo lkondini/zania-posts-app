@@ -40,6 +40,13 @@ You may also see any lint errors in the console.
 - Installed docker desktop for the initial configurations
 - Then set up the required configuration files to use docker-compose to upload the file
 
+### `How to clone and run on docker desktop app`
+
+- All the required docker compose configurations are set up in the project.
+- Clone into the local system
+- Navigate into the main root folder and execute "docker compose up" for the project to start building on docker
+- Once completed it can be tested and available for use on docker app
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
