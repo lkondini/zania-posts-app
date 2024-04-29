@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Zania-posts-app was built on react's Create React App
 
 This posts project was built using [Create React App] (https://github.com/facebook/create-react-app).
 
