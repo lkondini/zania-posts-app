@@ -1,0 +1,12 @@
+# docker-compose.yml
+ 
+
+services:
+  # Service name is react-app
+  react-app:
+    # build from Dockerfile
+    build: .
+    # expose 3000 as hosting port & 3000 in container port
+    ports:
+      - "3000:3000"
+
