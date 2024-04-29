@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // import { gridData } from './data';
+import Client from '../api/endpoints';
 import Card from './card';
 import SortableComponent from '../Shared/sortableList';
 
@@ -8,7 +9,7 @@ export default function List(){
 
     useEffect(() => {
         async function fetchGridData(){
-            const response = await fetch('/posts')
+            const response = await Client.posts.getAll();
             const posts = await response.json();
             setGridData(posts);
         }
